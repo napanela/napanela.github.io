@@ -1,7 +1,9 @@
 extends base/layout
 
-block script
+append script
   script(src="js/url-params.js")
+
+append script-footer
   script(src="js/search.js")
 
 block content
@@ -13,3 +15,7 @@ block content
         input#search-text(type="text")
       button.btn.btn-danger.btn-lg.scroll(onclick="searchRecipe()") Pesquisar
     .nulo &nbsp, &nbsp
+  section
+    ul.search-results
+  section
+    article.search-result
