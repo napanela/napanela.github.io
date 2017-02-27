@@ -16,6 +16,16 @@ html(lang="pt-br")
     block content
     include footer
     block script-footer
+      script(src="https://www.gstatic.com/firebasejs/3.6.10/firebase.js")
+      script.
+        var config = {
+          apiKey: "AIzaSyCBOTPK7g6g2A_RVkw3Vt1DH9pIwejENZY",
+          authDomain: "napanela-49d74.firebaseapp.com",
+          databaseURL: "https://napanela-49d74.firebaseio.com",
+          storageBucket: "napanela-49d74.appspot.com",
+          messagingSenderId: "283748862510"
+        };
+        firebase.initializeApp(config);
       script(src="js/jquery.min.js")
       script(src="js/bootstrap.min.js")
       script(src="js/jquery.easing.min.js")

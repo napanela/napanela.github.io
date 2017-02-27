@@ -3,6 +3,7 @@
 document.addEventListener('DOMContentLoaded', changeCategory);
 
 var category = null;
+var database = firebase.database();
 
 function changeCategory() {
   category = params.category || 'breakfast';
@@ -27,5 +28,5 @@ function changeCategory() {
 function searchRecipe() {
   var text = document.querySelector('#search-text').value;
 
-  alert(text);
+  console.log(text);
 }
