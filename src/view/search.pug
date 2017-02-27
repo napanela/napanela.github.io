@@ -1,0 +1,15 @@
+extends base/layout
+
+block script
+  script(src="js/url-params.js")
+  script(src="js/search.js")
+
+block content
+  section.search-container
+    .slogan
+      h2
+        span.text_color Digite o Ingrediente ou Receita
+      h3
+        input#seach-text(type="text")
+      button#seach-button.btn.btn-danger.btn-lg.scroll(onclick="searchRecipe()") Pesquisar
+    .nulo &nbsp, &nbsp

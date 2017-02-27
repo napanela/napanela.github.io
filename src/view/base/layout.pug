@@ -1,0 +1,25 @@
+doctype html
+html(lang="pt-br")
+  head
+    meta(charset="utf-8")
+    meta(name="viewport", content="width=device-width, initial-scale=1")
+    meta(http-equiv="X-UA-Compatible", content="IE=edge")
+    title Na Panela
+    link(rel="stylesheet", href="css/bootstrap.min.css")
+    link(rel="stylesheet", href="css/animate.min.css")
+    link(rel="stylesheet", href="css/style.min.css")
+    link(rel="stylesheet", href="css/color.min.css")
+    link(rel="stylesheet", href="css/font-awesome.min.css")
+    block script
+  body#page-top(data-spy="scroll" data-target=".navbar-custom")
+    include header
+    block content
+    include footer
+    block script-footer
+      script(src="js/jquery.min.js")
+      script(src="js/bootstrap.min.js")
+      script(src="js/jquery.easing.min.js")
+      script(src="js/jquery.scrollTo.js")
+      script(src="js/wow.min.js")
+      script(src="js/custom.js")
+      script(src="contactform/contactform.js")

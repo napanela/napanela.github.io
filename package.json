@@ -1,0 +1,33 @@
+{
+  "name": "napanela",
+  "version": "1.0.0",
+  "description": "Na Panela webpage.",
+  "main": "index.js",
+  "scripts": {
+    "build": "gulp build",
+    "watch": "gulp watch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/napanela/napanela.github.io.git"
+  },
+  "keywords": [
+    "napanela",
+    "receitas",
+    "comida"
+  ],
+  "author": "Equipe Na Panela",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/napanela/napanela.github.io/issues"
+  },
+  "homepage": "https://github.com/napanela/napanela.github.io#readme",
+  "devDependencies": {
+    "gulp": "^3.9.1",
+    "gulp-cssnano": "^2.1.2"
+  },
+  "dependencies": {
+    "gulp-pug": "^3.2.0",
+    "gulp-rename": "^1.2.2"
+  }
+}

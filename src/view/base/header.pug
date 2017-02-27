@@ -1,0 +1,29 @@
+#preloader
+  #load
+
+nav.navbar.navbar-custom.navbar-fixed-top(role="navigation")
+  .container
+    .navbar-header.page-scroll
+      button.navbar-toggle(type="button" data-toggle="collapse" data-target=".navbar-main-collapse")
+        i.fa.fa-bars
+      a.navbar-brand(href="index.html")
+        h1 NA PANELA
+    .collapse.navbar-collapse.navbar-right.navbar-main-collapse
+      ul.nav.navbar-nav
+        li.active
+          a(href="index.html#intro") Home
+        li
+          a(href="index.html#about") Conheça os Autores
+        li
+          a(href="index.html#service") Dicas
+        li
+          a(href="index.html#contact") Contato
+        li.dropdown
+          a.dropdown-toggle(href="#" data-toggle="dropdown") Refeições <b class="caret"></b>
+          ul.dropdown-menu
+            li
+              a(href="search.html?category=breakfast") Café da manhã
+            li
+              a(href="search.html?category=lunch") Almoço / Jantar
+            li
+              a(href="search.html?category=dessert") Sobremesa
